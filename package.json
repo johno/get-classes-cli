@@ -1,0 +1,33 @@
+{
+  "name": "get-classes-cli",
+  "description": "Get classes used in an HTML string",
+  "author": "John Otander",
+  "version": "0.1.0",
+  "main": "index.js",
+  "bin": {
+    "get-classes": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "ava -v"
+  },
+  "repository": "johnotander/get-classes-cli",
+  "keywords": [
+    "get",
+    "classes",
+    "html"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "get-classes-from-html": "^1.0.1",
+    "get-stdin": "^5.0.1",
+    "lodash.uniq": "^4.3.0",
+    "meow": "^3.7.0",
+    "shtml": "^0.1.0"
+  },
+  "devDependencies": {
+    "ava": "*"
+  }
+}

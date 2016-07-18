@@ -12,7 +12,24 @@ npm i -g get-classes-cli
 
 ```javascript
 get-classes -h
+
+  Get classes used in an HTML string
+
+  Usage
+    $ curl johnotander.com | get-classes
+
+  Options
+    -h, --help - Get help menu
+    -v, --version - Get the version
+
+  Examples
+    $ curl google.com | get-classes
+    $ get-classes  classes.txt
 ```
+
+## Related
+
+- [`get-classes-from-html`](https://github.com/johnotander/get-classes-from-html)
 
 ## License
 

@@ -24,7 +24,7 @@ get-classes -h
 
   Examples
     $ curl google.com | get-classes
-    $ get-classes  classes.txt
+    $ cat index.html | get-classes
 ```
 
 ## Related

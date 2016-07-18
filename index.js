@@ -17,7 +17,7 @@ const cli = meow(shtml`
 
   <underline>Examples</underline>
   $ curl google.com | get-classes
-  $ get-classes < index.html > classes.txt
+  $ cat index.html | get-classes
 </div>
 `, {
   alias: {
